@@ -2,7 +2,7 @@
 This program converts all .tga files in the current directory to .png files, and strips out the transparency channel. Files where the target .png already exists are skipped. File modification times are also copied so you can sort by file date.
 
 ## Usage with Battlefield 1942 screenshots
-Copy this tga2png into your `ScreenShots` folder and run it. It will convert all .tga files to .png.
+[Download](https://github.com/uuuzbf/tga2png/releases/download/v1/tga2png.zip) the zip file and copy the tga2png.exe into your `ScreenShots` folder, then run it. It will convert all .tga files to .png. Re-run when you have new screenshots.
 
 ### Why is this needed?
 By default the game saves images in .tga files, which is not supported by Windows's image viewer (?). Also the images usually are completely transparent, so even if you open it in another image viewer you won't see anything. This is why the alpha channel is stripped from the image.
